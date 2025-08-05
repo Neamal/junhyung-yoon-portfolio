@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import About from "./components/About";
 import { assets } from "@/assets/assets";
+import MyWork from "./components/MyWork";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
     <Navbar/>
     <Header />
     <About/>
+    <MyWork />
     </>
   );
 }
